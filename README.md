@@ -84,6 +84,12 @@ sgotools download data/2026-11-06
 sgotools summary data/2026-11-06 --regime both --categories ADS ADAS
 ```
 
+## Worked example
+
+[`examples/`](examples/) walks through the three problems above on real data,
+with the output and a figure included, and ships the script that produced
+them.
+
 ## The decisions, and the defaults
 
 | Option | Default | What it does |
