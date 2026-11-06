@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "sgotools: Reproducible access to NHTSA Standing General Order crash reports"
+abstract: >-
+  A Python package for working with the NHTSA Standing General Order (SGO
+  2021-01) incident report files on automated driving systems and Level 2
+  driver assistance. It pins a dated snapshot with checksums, reads the
+  files' inconsistent encodings, harmonises the schema and value changes
+  introduced by the third amendment of 16 June 2025, and records every
+  filtering choice applied.
+type: software
+authors:
+  - family-names: Lee
+    given-names: Seoyoung
+    affiliation: "Department of Computer Science and Engineering, Sungkyunkwan University"
+repository-code: "https://github.com/syunz0531/sgotools"
+license: MIT
+version: 0.1.0
+keywords:
+  - crash data
+  - automated driving
+  - road safety
+  - reproducibility
+  - open data
